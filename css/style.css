@@ -1,4 +1,9 @@
 body{
+	color:  #ffffff;
+	font-size:  30px;
+	text-align:  center;
+	line-height: 115px;
+	white-space:  nowrap;
 
 }
 
@@ -54,4 +59,106 @@ textarea {
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
+}
+.ba-header {
+	background: #ca6a9f;
+	height: 115px;
+	position: fixed;
+	width:  100%;
+	z-index: 2;
+}
+.menu {
+	margin:  0;
+}
+.menu-item {
+	display:  inline-block;
+}
+.menu-item a {
+	color:  #ffffff;
+	text-decoration:  none;
+}
+.menu-item a:hover {
+	text-decoration:  underline;
+}
+
+.container {
+	background:  #dfdddd;
+	width:  80%;
+	height:  80%;
+	position:  absolute;
+	margin: auto;
+	top: 0;
+	right:  0;
+	bottom:  0;
+	left:  0;
+	color: #ffffff;
+	font-size:  30px;
+	text-align: center;
+	padding:  22px;
+	top: 115px;
+
+}
+.item5 {
+	background: #ca6adf;
+	width: 30%;
+	height: 115px;
+	display:  inline-block;
+	position:  absolute;
+top:  22px;
+left:  22px;
+
+
+}
+.item6 {
+	background: #4578c8;
+	width: 30%;
+	height: 115px;
+	display:  inline-block;
+	position:  absolute;
+position:  absolute;
+top:  22px;
+right:  22px;
+}
+.item7 {
+background: #ea5362;
+width: 30%;
+height: 115px;
+
+display:  inline-block;
+position:  absolute;
+bottom:  22px;
+left:  22px;
+}
+.item8 {
+background: #4fb44a;
+width: 30%;
+height: 115px;
+display:  inline-block;
+position:  absolute;
+bottom:  22px;
+right:  22px;
+	}
+
+.item9 {
+background: #0a3740;
+width: 115px;
+height: 115px;
+display:  inline-block;
+position:  absolute;
+top: calc(50% - 115px/2);
+left:  calc(50% - 115px/2);
+
+	}
+
+.container3 {
+	background:  #dfdddd;
+	width:  80%;
+	height:  100%;
+	position:  absolute;
+	text-align: center;
+	padding:  22px;
+	top: 115px;
+	left:  10%;
+	right: 10%;
+
 }
